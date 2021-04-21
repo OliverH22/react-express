@@ -23,8 +23,6 @@ app.get('/api/associations/:word', (req, res) => {
 		res.json({status:"Error", message: `${error}`});
 	});
 });
-
-
 // ...
 
 // put this AFTER the other `app.get(...`
